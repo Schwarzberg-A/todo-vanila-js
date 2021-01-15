@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  padding-left: 75px;
+  padding-right: 75px;
+  max-width: 1920px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+
+.heading {
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.input-field, .tasks {
+  width: 50%;
+}
+
+.btn {
+  white-space: nowrap;
+  padding: 10px 15px 10px 15px;
+  width: 49%;
+}
+
+.wrapper {
+  display: flex;
+  width: 1000px;
+  border: 1px solid black;
+  padding: 50px 50px 50px 50px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px 50px 10px 10px;
+  margin-bottom: 70px;
+}
+
+.crossOut {
+  text-decoration: line-through;
+}
+
+.task {
+  cursor: pointer;
+}
